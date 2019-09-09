@@ -5,5 +5,6 @@ const zmok = {
   Debug: require('debug'),
   gql
 }
+// TODO: how to freeze better?
 
 module.exports = Object.freeze(zmok)
